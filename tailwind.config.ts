@@ -26,7 +26,16 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
+				},
+				status: {
+					pending: 'hsl(var(--status-pending))',
+					'pending-bg': 'hsl(var(--status-pending-bg))',
+					progress: 'hsl(var(--status-progress))',
+					'progress-bg': 'hsl(var(--status-progress-bg))',
+					completed: 'hsl(var(--status-completed))',
+					'completed-bg': 'hsl(var(--status-completed-bg))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
