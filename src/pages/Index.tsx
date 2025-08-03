@@ -1,7 +1,7 @@
-import { TaskManager } from './TaskManager';
+import { LandingPage } from './LandingPage';
 
 const Index = () => {
-  return <TaskManager />;
+  return <LandingPage />;
 };
 
 export default Index;
